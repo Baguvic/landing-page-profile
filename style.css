@@ -1,0 +1,198 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.body {
+  background-color: bisque;
+}
+.navbar {
+  background-color: transparent;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbar-brand img {
+  width: 1.8125rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+/* hero */
+.hero {
+  background: url(/img/hero.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .text {
+  padding: 20rem 0;
+}
+.hero .text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffff;
+}
+.hero .text p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffff;
+}
+.hero .text .sosmed a {
+  font-size: 3rem;
+  color: #fff;
+  margin: 0 1rem;
+}
+/* about me */
+.about {
+  padding: 7rem 0;
+}
+.about img {
+  width: 32.87356rem;
+}
+.about h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #c38154;
+}
+.about h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.about p {
+  font-size: 1.3rem;
+}
+/* what i do */
+.what {
+  padding: 7rem 0;
+}
+.what h4,
+.fotopolio h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #c38154;
+}
+.what h2,
+.fotopolio h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+.what .fuck {
+  background-color: #ffd89c;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 0 2rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.what h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.what p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.what img {
+  background-color: #f1c27b;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+/* fotopolio */
+.fotopolio {
+  padding: 7rem 0;
+}
+.fotopolio .card {
+  border-radius: 20px;
+  background-color: #ffedd3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 1.5rem 0;
+}
+.fotopolio .card h3 {
+  font-size: 1.2rem;
+  margin: 1rem;
+  font-weight: 600;
+}
+.fotopolio .card a {
+  padding: 0.4rem 1.5rem;
+  background-color: #f1c27b;
+  margin: 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+/* contact me */
+.contact {
+  padding: 7rem 0;
+}
+.contact .last {
+  background-color: #ffedd3;
+  padding: 10rem 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.contact .last h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.contact .last a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  background-color: #f1c27b;
+  color: #fff;
+  border-radius: 10px;
+}
+/* footer */
+.footer {
+  background-color: #ffd89c;
+  padding: 3rem;
+}
+.footer h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.footer p {
+  color: #000;
+  font-size: 1rem;
+  font-family: Poppins;
+  font-weight: 700;
+}
+/* media queries */
+@media (max-width: 1360px) {
+  html {
+    font-size: 75%;
+  }
+  .hero {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 60%;
+  }
+  .what .fuck {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
+  .hero {
+    height: 30vh;
+  }
+  .hero .text {
+    padding: 10rem 0;
+  }
+  .what .fuck {
+    margin: 1rem 0;
+  }
+}
